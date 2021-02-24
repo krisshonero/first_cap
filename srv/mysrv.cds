@@ -1,7 +1,10 @@
-using myCompany.hr.lms from '../db/filename';
+using schema from '../db/filename';
 service  first{
-   @readonly entity Students as projection on lms.Students;
+   @readonly entity StudentsSRV as projection on schema.Students;
 }
 service say {
   function hello (to:String) returns String;
 }
+
+
+    
