@@ -4,8 +4,9 @@ namespace schema;
        first_name : String(20);
        last_name : String(20);
        date_sign_up : Date;
+       dato_2 : String(20);
    }
-annotate Students with @(
+/*annotate Students with @(
     UI:{
         LineItem:[
             {
@@ -26,4 +27,4 @@ annotate Students with @(
             }
         ]
     }
-);
+);*/
